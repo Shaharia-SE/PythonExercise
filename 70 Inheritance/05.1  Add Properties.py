@@ -12,6 +12,8 @@ class Student(Person):
         super().__init__(fname, lname)
         self.graduationyear = year
 
+#Add a year parameter, and pass the correct year when creating objects:
+
 
 x = Student("Mike", "Olsen", 2019)
 x.printname()
